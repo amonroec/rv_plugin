@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: VueReservation
- * Description: A demo on how to use Vue in WordPress.
+ * Description: Reservations Plugin built by Austin Coleman.
  */
  
  //Register Scripts to use 
