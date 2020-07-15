@@ -8,7 +8,7 @@
 //Register scripts to use
 function func_load_vuescripts() {
     // wp_register_script('wpvue_vuejs', 'https://cdn.jsdelivr.net/npm/vue/dist/vue.js');
-    wp_register_script('rv_vue', plugin_dir_url(__FILE__), 'wpvue_vuejs', true);
+    wp_register_script('rv_vue', plugin_dir_url(__FILE__).'rv_plugin/dist/build.js', 'wpvue_vuejs', true);
     // wp_register_script('rv_vue', 'https://rvselfpark.com/wp-content/plugins/rv_plugin/rv_plugin/dist/build.js', 'wpvue_vuejs', true);
     // wp_register_script('my_vuecode', plugin_dir_url( __FILE__ ).'rv_plugin/src/reservations-table.js', 'wpvue_vuejs', true );
     // wp_register_script('my_vuecode2', plugin_dir_url( __FILE__ ).'rv_test/src/main.js', 'wpvue_vuejs', true );
@@ -34,16 +34,16 @@ function func_wp_vue(){
   return $str;
 } // end function
 
-function func_reservations_table() {
-  // wp_enqueue_script('wpvue_vuejs');
-  wp_enqueue_script('rv_vue');
-  $str= "<div id='vue-reservation-table'>"
-    ."</div>";
+// function func_reservations_table() {
+//   // wp_enqueue_script('wpvue_vuejs');
+//   wp_enqueue_script('rv_vue');
+//   $str= "<div id='vue-reservation-table'>"
+//     ."</div>";
 
-  //Return to display
-  return $str;
-}
+//   //Return to display
+//   return $str;
+// }
 
 add_shortcode( 'wpvue', 'func_wp_vue' );
-add_shortcode( 'reservationstable', 'func_reservations_table');
+// add_shortcode( 'reservationstable', 'func_reservations_table');
 ?>
