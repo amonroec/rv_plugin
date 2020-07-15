@@ -8,7 +8,7 @@
 //Register scripts to use
 function func_load_vuescripts() {
     // wp_register_script('wpvue_vuejs', 'https://cdn.jsdelivr.net/npm/vue/dist/vue.js');
-    wp_register_script('rv_vue', plugin_dir_url().'rv_plugin/dist/build.js', true);
+    wp_register_script('rv_vue', plugin_dir_url().'rv_plugin/dist/build.js', '1.1', true);
     // wp_register_script('rv_vue', 'https://rvselfpark.com/wp-content/plugins/rv_plugin/rv_plugin/dist/build.js', true);
     // wp_register_script('my_vuecode', plugin_dir_url( __FILE__ ).'rv_plugin/src/reservations-table.js', 'wpvue_vuejs', true );
     // wp_register_script('my_vuecode2', plugin_dir_url( __FILE__ ).'rv_test/src/main.js', 'wpvue_vuejs', true );
