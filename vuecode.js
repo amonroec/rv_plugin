@@ -1,5 +1,5 @@
 var app = new Vue({
-  el: '#reservationstable',
+  el: '#vue-reservation-app',
   data: {
     message: 'Hello Vueeeeesfs!'
   }
