@@ -11,7 +11,8 @@ function func_load_vuescripts() {
     // wp_register_script('rv_vue', get_stylesheet_directory_uri().'rv_plugin/dist/build.js');
     // wp_register_script('rv_vue', plugin_dir_url(__FILE__).'rv_plugin/dist/build.js');
     // wp_register_script('rv_vue', 'https://rvselfpark.com/wp-content/plugins/rv_plugin/rv_plugin/dist/build.js', true);
-    wp_register_script('rv_vue', 'http://localhost:8080/dist/build.js', 'wpvue_vuejs', true );
+    // wp_register_script('rv_vue', 'http://localhost:8080/dist/build.js', 'wpvue_vuejs', true );
+    wp_register_script('rv_vue', plugin_dir_url(__FILE__).'rv_plugin/dist/build.js', 'wpvue_vuejs', true );
     // wp_register_script('rv_vue', plugin_dir_url( __FILE__ ).'rv_plugin/dist/build.js', 'wpvue_vuejs', true );
     // wp_register_script('my_vuecode2', plugin_dir_url( __FILE__ ).'rv_test/src/main.js', 'wpvue_vuejs', true );
 
