@@ -1,0 +1,1 @@
+export const apiUrl = 'http://rv_server.test/api/'
