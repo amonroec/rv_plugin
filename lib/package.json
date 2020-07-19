@@ -14,17 +14,12 @@
     "bootstrap": "^4.5.0",
     "jquery": "^3.5.1",
     "moment": "^2.27.0",
-    "popper.js": "^1.16.1",
+    "@popperjs/core": "^2.0.0",
     "sweetalert2": "^9.15.2",
     "vue": "^2.5.11",
     "vue-paypal-checkout-2": "^1.0.0",
     "vue-paypal-checkout-v": "^1.0.7"
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ],
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
