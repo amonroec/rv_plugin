@@ -13,6 +13,7 @@
     "@popperjs/core": "^2.4.4",
     "axios": "^0.19.2",
     "bootstrap": "^4.5.0",
+    "chokidar": "^3.4.1",
     "jquery": "^3.5.1",
     "moment": "^2.27.0",
     "sweetalert2": "^9.17.0",
